@@ -1,0 +1,83 @@
+			Aptitude Answers
+1. a-29
+2. c-20
+3. a-100
+4. c-63
+5. a-9
+6. b-K
+7. a-P
+8. b-FR
+9. c-bccab
+10. a-GOV
+11. 2
+12. 38
+13. window
+14. sun
+15. BE
+
+
+
+
+
+1.java and javac both are located in jdk.javac means java compiler it is used to compile the java files and it creates byte code(.class) and java is used to run the byte code after the javac.
+
+2.JDK=Java Development Kit
+JRE=Java Runtime Environment
+JVM=Java Virtual Machine
+JDK is used to write the programs,JRE is used to execute the programs,JVM is actually executes the programs but we can't see .
+
+3.limitations of array
+In array index starts from 0.when size of array is fixed then we cannot modify .It has Continous memory location .The elements stored in array in {} and it was separated by (,).we can take implicit reference or explicit reference in arrays.
+Array declaration is= datatype[] arrayname={};
+
+4.class -class is a blueprint/design to make  an object.It makes copies of the objects.
+object-object is an instance of a class and also called as literals.
+Signature of class-class classname(){body of the class}
+
+5.An Array is a collection of similar datatypes/objects.
+
+6..java file is in which developer writes the java programs and that will be saved by the extension of filename with .java .Then .class file means after saving the .java file developer compiles the file by using javac and it generates the .class file .That .class file can be run in any platform ,once it generates .
+
+7.byte[] data={12,34,9,0,-62,88}
+length of the array is 6.
+
+8.method signature - acessspecifier returntype methodname(){body of the method}
+
+9.java is a object oriented programming language and it was developed by James Gossling.
+
+10.variable -variable is a reference which we declare with a datatype and we can retrive the data by using variables.we can initialize the values to variable.
+types of variables
+1.local variables-which are declare inside the method
+2. instance/global variables-which are declare outside the method
+
+11.class variable-class variable is a non-primitive data type or data type.
+
+12.Datatype -it stores the data of anytype.
+Types of datatype
+1.Primitve datatype 					2.Non-primitve datatype
+byte,short,int,long ,boolean,float,double		Any data that user stores except 
+							primitive datatype.
+
+13.Java features-1.Java is a high level programming language
+		2.java is a object oriented programming language
+		3.Platform independent because once we write it can run anywhere
+		4.Highly secured when compared to other languages
+		5.java creates byte code
+	
+14.Types of array in java
+1.single dimension array
+2.Mutli dimension array
+
+15.Array index out of bound exception means when we are going to acessing the elements beyond the  length of the array.
+
+16.System.out.println()-System is predifined function , . is a dot operator which is used access the member variables of the class, out is static variable, println is static method ,() is a argument.
+It is a statement which is used to print a meassage.
+
+17.double equal operator -  ==
+It is used to compare two variables which is same type and it  returns boolean value either true or false.
+
+18. dot operator is used to acces the member variables of the same class.
+
+19.Base class of the all classes - Object class 
+
+20.10 java keywords-  new,final,static,void,int,double,const,float,long,short.
