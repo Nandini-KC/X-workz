@@ -1,0 +1,186 @@
+		Aptitude-2
+		
+		1.d-maternal uncle
+		2.b-grand father
+		3.b-cousin
+		4.d-brother
+		5.a-son-in-law
+		6.c-x+A*Y
+		7.c-R
+		8.b-brother-in-law
+		9.a-father
+		10.c-S
+		11.a-10 kms
+		12.b-south
+		13.b- South-East
+		14.a-west
+		
+		
+		
+		         JAVA
+		 
+1. Error
+2. 10,110
+3. Error
+4. main method is static because static is a keyword which it can be access without create an object we can directly access the method.
+when we compile the java program the jvm looks for main method if the main method is not static it will give error.
+5. Program for reverse array elements
+ 
+ class Array
+ {
+	public static void main(String[] args)
+	{
+		int[] array={10,45,7,9,2};
+		for(int i=array.length-1;i>=0;i--)
+		{
+			System.out.println(array[i]);
+		}
+	}
+ }
+ 
+ 6.
+  import java.util.*;
+ class Array
+ {
+	public static void main(String[] args)
+	{
+		int[] array={2,5,4,8,2,3,6,2};
+		int i,j;
+		int[] array1=new int[8];
+		int[] array2=new int[8];
+		Arrays.sort(array);
+		for(i=array.length-1;i>=0;i--)
+		{
+			System.out.print(array[i]);
+		}
+		for(i=0;i<array.length;i++)
+		{
+			for(j=i+1;j<array.length;j++)
+			{
+				if(array[i]==array[j])
+				{
+					array1[i]=array[i];
+					array2[i]=0;
+				}
+				
+				else
+				{
+					array2[i]=array[i];
+					
+				}
+				
+			}
+		}
+		for(i=0;i<array2.length;i++)
+		{
+			System.out.println(array2[i]);
+		}
+		
+	}
+ }
+ 
+ 7.Done
+ 8.this is keyword which is used to return the current instance of the class.And it is used to differentiate between instance variables and local variables;
+	this() is a method in which class name is this and we again write this() and it is called as constructor.which it pointing current class.
+	
+9.class Array
+ {
+	public static void main(String[] args)
+	{
+		int a=3,b=6;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("a ="+a+" "+"b ="+b);
+		
+	}
+ }
+ 
+ 10.
+ 1. 
+ class Array
+ {
+	public static void main(String[] args)
+	{
+		int i=3,j=3;
+		for(i=1;i<=3;i++)
+		{
+			
+			for(j=1;j<=3;j++)
+			{
+				if(j==i||j==3-i+1)
+				{
+					System.out.print("&"+" ");
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+			
+		}
+	}
+ }
+ 
+ 
+ 2.
+ class Array
+ {
+	public static void main(String[] args)
+	{
+		int i=3,j=3;
+		for(i=1;i<=3;i++)
+		{
+			
+			for(j=1;j<=3;j++)
+			{
+				if((i==1||i==3)||(j==1||j==3))
+				{
+					System.out.print("%"+" ");
+				}
+				else if(i==3-i+1||j==3-j+1)
+				{
+					System.out.print("&"+" ");
+				}
+				else
+				{
+					System.out.println(" ");
+				}
+			}
+			System.out.println();
+			
+		}
+	}
+ }
+ 3.
+  
+ class Array
+ {
+	public static void main(String[] args)
+	{
+		int i=3,j=3;
+		for(i=1;i<=3;i++)
+		{
+			
+			for(j=1;j<=3;j++)
+			{
+				if((i==1||i==3)||(j==1||j==3))
+				{
+					System.out.print("%"+" ");
+				}
+				else if(i==3-i+1||j==3-j+1)
+				{
+					System.out.print(" "+" ");
+				}
+				else
+				{
+					System.out.println(" ");
+				}
+			}
+			System.out.println();
+			
+		}
+	}
+ }
+ 
