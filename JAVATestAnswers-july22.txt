@@ -1,0 +1,200 @@
+									Test answers -july22
+									
+									
+									
+									1.Syntax Error
+									
+									2.Error
+									
+									
+									3.compile error
+									
+									
+									4.length is:4
+										sum of values is:200
+										
+										
+									6.Method paramters are local variables which are defined in parmaters in method declaration .we can defined those variables by using primitve data types.
+									And we can give the values to that variables by creating object to that method.
+									
+									7.We can achieve compile time polymorphism through method overloading.That is also called as static polymorphism.Because we are assigning memory in compile time that is why it is called 
+									compile time polymorphism.Method overloading means using multiple methods with same name and with different parameters is known as method overloading.
+									
+									class Compile
+									{
+										int age;
+										String name;
+										String class;
+										void poly1(int age,String name)//method overloading 
+										{
+											this.age=age;
+											this.name=name;
+											System.out.println(age+""+name);
+										
+										}
+										void poly2(String name,String class)
+										{
+											this.name=name;
+											this.class=class;
+											System.out.println(class+""+name);
+										}
+										public static void main(String[] args)
+										{
+											Compile ref=new Compile();
+											ref.poly1(21,"nandu");
+											ref.poly2("bindu","puc");
+										
+										}
+									}
+									
+									
+									
+									8.var-args means variable argument .it is used in method to allows one or more arguments.
+									syntax:   return type  methodname(data type... varaible name)
+									           {
+											   
+											   }
+											   
+											   
+									9.package is a folder.It consists of path of reverse domain .It consists of sub packages like com.xworkz.name.Inside a package classes
+									methods are there.It defines the path for where we are stores the programs.
+									types -1.built -in packages
+									       2.user defined 
+									1.built packages are already in available we can import those packages when ever we want.
+									  ex. import java.util.*;
+									       import java.math;
+									2.user defined means we can import the packages from other classes then we can acess the methods,objects of that class.
+									   ex.import com.btm.age;//importing other pcakage
+									
+									10.Constructor chaining means accessing one constructor in another constructor.
+									first line pf every constructor is always chaining.
+									By using two types 1.this   2.super
+									1.this is used to acess the another constructor into one constructor in same class.
+									class Parent
+									{
+										String name;
+										int height;
+										int cost;
+										int salary;
+										Parent(String name,int height)
+										{
+											this.name=name;
+											this.height=height;
+										}
+										Parent(int cost,int salary)
+										{
+											this(name,height);
+											this.cost=cost;
+											this.salary=salary;
+											
+										}
+									}
+									
+									
+									
+									2.super is used to acess the another constructor into one constructor of parent class.
+									class Parent
+									{
+										String name;
+										int height;
+										int cost;
+										int salary;
+										Parent(String name,int height)
+										{
+											this.name=name;
+											this.height=height;
+										}
+									}
+									
+									class Child
+									{
+										String color;
+										Child(String color)
+										{
+											super(name,height);
+											this.color=color;
+										}
+									}
+									
+									
+									11. fibinocci series using recursion
+									
+									    class fibirec
+										{
+											public static void main(String args[])
+											{
+												int n=7;
+												for(int i=1;i<=n;i++)
+												{
+													System.out.print(fibi(i)+" ");
+												}
+
+
+											}
+											public static int fibi(int n)
+											{
+												if(n==0||n==1)
+													return n;
+												else
+													return fibi(n-1)+fibi(n-2);
+											}
+										}
+
+									12.i check a list of integers conatins odd numbers
+									   first i divied the integers with 2
+									   int array[5]={1,3,5,7};
+									   for(int i=0;i<array.length;i++){
+										   if (array[i]%2!=0)
+										   {
+											System.out.println(array[i]);
+										   }
+										}
+									   it gives output of odd numbers.
+									   I check list of inetgers if all gives remainder other than 0.they are odd numbers.
+									
+									
+									13.class Array
+									{
+										int array1[3]={1,2,4};
+										int array2[3]={1,2,4};
+										Arrays.sort(array1);
+										Arrays.sort(array2);
+										for(int i=0;i<array1.length;i++)
+										{
+											
+												if(array1[i]==array2[i])
+												{
+													System.out.println("both arrays are conatins same elemenst");
+												}
+												else
+												{
+													System.out.println("both arrays are conatins not same elemenst");
+												}
+										}
+									}
+									
+									14.the keyword enum is called as enumeration.It is used to store the list of constant values.Once we store the values in enum.We have to use among them only.
+									Instead of using datatype we are using enum name for variable declaration.
+									ex. enum Colors
+										{
+												RED,BLUE,PINK;
+										}
+										class File
+										{
+											String names;
+											Colors color;//Colors is enum name 
+										}
+										
+										
+									15.when we create a object .The objects are created  in heap memory and the instances are stored in stack frame.then the variables are create memory in instance memory 
+									it will allocates default values .Then the constructor is called and it will allocate the values in constant pool.then the construtcor will delete.
+									
+									16.mmebers of class are methods,constructors,variables.
+									
+									
+									   
+									
+									
+									
+									
+							
